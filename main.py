@@ -10,7 +10,7 @@ import os
 # Инициализация FastAPI приложения
 app = FastAPI()
 
-# Подключение к MongoDB
+# Подключение к MongoDB Привет endpoints
 client = AsyncIOMotorClient("127.0.0.1:27017")
 db = client["tasks"]
 collection = db["tasks"]
